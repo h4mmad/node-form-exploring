@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST" action="/api/add/players">
+        <div>
+            <label for="PLAYER_NAME">Player Name</label>
+            <input type="text" name="PLAYER_NAME" required>
+        </div>
+
+        <div>
+            <label for="PLAYER_DOB">Player DOB</label>
+            <input type="date" name="PLAYER_DOB" required>
+        </div>
+
+        <div>
+            <label for="PLAYER_NATIONALITY">Player Country</label>
+            <input type="text" name="PLAYER_NATIONALITY" required>
+        </div>
+
+
+        <div>
+            <label for="PLAYER_PIC_URL">Player Picture URL</label>
+            <input type="text" name="PLAYER_PIC_URL" required>
+        </div>
+
+        <div>
+            <label for="PLAYER_FLAG_URL">Player Flag URL</label>
+            <input type="text" name="PLAYER_FLAG_URL" required>
+        </div>
+
+        <div>
+            <label for="PLAYER_HEIGHT">Player Height</label>
+            <input type="text" name="PLAYER_HEIGHT" required>
+        </div>
+
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
